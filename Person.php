@@ -8,7 +8,7 @@ class Person{
     }
 
     public function getFirstName(){
-        return $this->firstName;
+        return $this->firstName . "is a good coder";
     }
     public function setFirstName($firstName){
         $this->firstName = $firstName;
